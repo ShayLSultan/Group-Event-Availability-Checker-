@@ -1,5 +1,4 @@
 import csv 
-from datetime import datetime
 
 with open("member_availability.csv") as mem_avail_csv_file:
     mem_avail_dict = csv.DictReader(mem_avail_csv_file)
